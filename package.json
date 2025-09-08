@@ -1,0 +1,41 @@
+{
+  "name": "feecoin-backend",
+  "version": "1.0.0",
+  "description": "Solana token fee distribution backend system - Automated fee claiming and distribution to token holders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "auto": "node autoDistribute.js",
+    "test": "node testMainnet.js",
+    "monitor": "node continuousMonitor.js",
+    "server": "node webServer.js",
+    "distribute": "node distributeFees.js",
+    "claim": "node claimFees.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.28.3",
+    "@babel/parser": "^7.28.4",
+    "@solana/spl-token": "^0.3.11",
+    "@solana/web3.js": "^1.87.6",
+    "axios": "^1.6.0",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "token",
+    "distribution",
+    "automation",
+    "defi",
+    "pump.fun"
+  ],
+  "author": "FeeCoin Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/feecoin-backend.git"
+  }
+}
